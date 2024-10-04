@@ -1,0 +1,569 @@
+getgenv().SecureMode = true
+local s = Instance.new ("Sound", workspace)
+s.SoundId = 'rbxassetid://530637073'
+s.Volume = 1
+s:Play()
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+   Name = "Apocalypse-Script By qetp",
+   LoadingTitle = "Apocalypse-Script...",
+   LoadingSubtitle = "by qetp",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Apocalypse-Script"
+   },
+   Discord = {
+      Enabled = true,
+      Invite = "yCc8M7sX", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   
+   Rayfield:Notify({
+   Title = "Loaded Into Apocalypse-Script ",
+   Content = "Have Fun Using Made By qetp On Discord!",
+   Duration = 1,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Close.",
+         Callback = function()
+         print("You Tapped Close")
+      end
+   },
+},
+}),
+   
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Apocalypse-Script Key System",
+      Subtitle = "Please Enter Key",
+      Note = "You Get Block Listed If You Share Your Key",
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"4dbeUAq8UN","WDopnMRnlV","9xpxtSgVIh","LDi5bAm2hR","4dsbeUAq8UN","amv07AbD7r","ZjLaeSTKFO","fjaHnZNwQN","278HvYTCOU","e00ugETthU","ZigG902KHK","T5yukJkONK","27fosX7Hsx","AokRXsddaa","T2WUCgZKvG","XlmcNGpbnw","Ni0n8BIch7","TfsmO9RoR3","wG27WAycoj","UecFyNtCtu","3dUcSKFEeF","TnY6LsK5k6","FrcBt5Ku80","R1NsDiggOG","q5BdnMMLg0","lMouAOs4lt","L1CASjYlke","MsIhLO0Dx5","9hCcUg2JGq","aahh3iHmGx","wflOw3FIH1","TNJoU3d2Ce","gHO5Pa1JAI","AokRXo0rTa","qJQZX3USVz","Is6c0bhUFX","If6c0bhUFX","9bUNM3D9sA","FrcBt5Ku80","1RDnFj6oEk","vWete3i8Oi","D3Nv5662cvPB","qetp123","Genocide707","xpxq3q2J96SC4gKa","yeUSnSur5Jem7HLM","xHduzjsRy4ajdzPg","a6yaua6aDgQtFzSg","5MdJBEmKhETY7w8f","E4Z4X5gh4sLNGk8P","8cANtWt87mHYDLtp","yjJD3ZNKRBztsJFg","t5NwjHx2gxg8KSg7","7fCXnMy3886GK4p3","t9SWgcawj8cMzzd3","L5MqUYfgPh5UK9Dv","4KPver6mCsQ6fQ8w","FEYLhLjBQEv5dBXC","qH7ENvPDwfHL3Dhg","gf8Lsv9ZS4JUnTT8","6N2Uu5NyBUNuxsQL","metW3Nv5662cZeLG","cQS8kgKQ5qr54LHY","Y7UYuz9DDa9HwxN5","54ZV5pHhxZyc9utw","SNzAWFbhW5yy2NLK","K2jNtzaUR96JvJwz","Jze2RpLDFQzugbv8","fUPgR2WXjJcjTRPj","PS94q4vPBpH3zWYF","DBTnkt9jHtqdQkpe","HedHh824mTVZc2bE","3kuqHjKM9WTCNf8S","hZVZu4WbeuyLHGFp","Bw2Xfe6THPNXqAAw","362cCV3Ba6SMfbnt","CSvHLCmjK83gKpgu","RX9ME2hrkasD9ffy","UdxWNs2LSwvpBMGm","LMq7fthqTwMYqj36","UxHgLq65jgV3sTSbZaD","k7fYja5QydhQhxej","L6rPRdSFcqkxyk9y","s3KkRkyjTVSby64a","6s6VsDj3Vf7NtR2B","vfVHnRmhc4YUJ2eJ","W9k79fskzGhj7fUa","HLaYjDVertW5Qh2f","X2r4tVHNsKgsnDeR","y3jsMLJ77tQ8ZqU2","QGDVPe4Ls7CLzLh3","u3QXG2jZs5JQPUfa","3AuFcsPGVYxsXcFW","273kXf3vw3qUxcUQ","qws6gKCIynEFH1mL","fQ72wUtuYSTurtVK","hN5uDmqQkTtsGRfz","xo5tsESLHk7BWVGD","PeiQhcumE175SqGZ","hNuwZ0y8g5lJcYtm","AGRWr9x17bjCYnug","dtYa8bq41l2xC0Py","KExO4IFbtlY3pG8o","fjvJNPhMz5Vxsyr4","eptZC9wr0mlYSo6Q","wJjzlOAF8ICHdiaT","Q0q6HSv4ftL9OhMZ","rIAdL9ybZBD36Yam","pEAXj8bafx0IM39s","Y0Wxg5sfzJCGqBiu","Uq2wkuHA0O13M7ba","uKDwdkO5oLH7cy9q","M7okDa1jLZy9muCX","kKBXzYb1JvrDPiQA","OImcJB1tZKpdR6a3","Si17UJcX5QpbGmYd","AlM8a03SDYtquoOL","hyacJKYSb2dlXfLm","HYvb1IiWgGu5NQm8","Ow2zcp51HJk0oTmt","I7pn0FagG1PHYAB8","cIBnTF4epqiYs9t3","tgcuzmjCl3Y0SoTa","Ygew62mZfAToJH1l","J8pFchP1beK0z4jY","oXMvL8yG5tSKYmEW","GfJWSg2K3CvxAIu4","EIMaAk9z78uUh5Sj","gUyPw5RqDILhKc0V","Bs3ASvFNR5atZq4P","AVQLYcqD8slteUXj","ZSQ8H9AtB4fFWr7Y","DkPRaISb3mivW49r","Aiw530IuOLyfPZ2F","MaZDgk7USypocQ5N","Pxc2eCQBG0OHuv7z","eaS3w7srDLkIz9QZ","E0KTIpoqJFl19dkb","cT4VMBeOQYJArzIb","wlcQkL35b1qspW8B", "zE97iRWrmptg3JeA", "KsiZy6FE7aVA, pNwVkMNeC8Y6Gi","i2KzFE3S83nymfrRJe5WUvW5vPjh6nxG","2DE29B1DB184F","JdQODKLgxCPru62C"}                
+      
+  ---be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+--[References.
+   
+local R = game:GetService("Workspace").Remote
+local Workspace = game:GetService("Workspace")
+local Lighting = game:GetService("Lighting")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = Game:GetService("RunService")
+local Loot = Lighting.LootDrops
+local Mats = Lighting.Materials
+local Players = game:GetService("Players")
+local client = Players.LocalPlayer
+ 
+    
+--]EndOfReferences.
+
+
+
+
+
+--[FireServerBypass
+    
+    
+    Serial = nil
+GetKey = nil
+local MetaCall = getrawmetatable(getrenv().shared)
+for i, v in pairs(debug.getupvalues(MetaCall.__index)) do
+    if i == 3 then
+        for a, b in pairs(debug.getupvalues(v)) do
+            if a == 6 then
+                Serial = b
+            elseif a == 7 then
+                GetKey = b
+            end
+        end
+    end
+end
+
+function fireserver(Re, ...)
+    Re = R[tostring(Re)]
+    Re:FireServer(Serial({...}, GetKey()))
+end
+    
+    --]EndOfFireServerBypass
+
+---Start Of Kits
+
+    SelectedPlayer = nil
+Item = nil
+SpawnedItems = {}
+function SpawnItem(SelectedPlayer, Item, Parent, OF, SP)
+    if SelectedPlayer == nil or Item == nil or GetItemFromString(Item, Parent) == nil then
+        return
+    end
+    Item = GetItemFromString(Item, Parent)
+    if SP == nil then
+        Count()
+    end
+    if SpawnedItems[Item] == nil then
+        SpawnedItems[Item] = {true}
+    else
+        table.insert(SpawnedItems[Item], true)
+    end
+    if Item.Parent ~= Mats then
+        fireserver("ChangeParent", Parent:WaitForChild(tostring(Item)), Mats)
+    end
+    local ItemI = Mats:WaitForChild(tostring(Item))
+    if ItemI.PrimaryPart == nil then
+        ItemI.PrimaryPart = GetPart(ItemI)
+    end
+    pcall(function()
+        R.PlaceMaterial:FireServer(Mats:WaitForChild(tostring(Item)).Name, SelectedPlayer.Character.Torso.Position - ItemI.PrimaryPart.Position - OF)
+    end)
+    spawn(function()
+        wait(2)
+        table.remove(SpawnedItems[Item], 1)
+        if #SpawnedItems[Item] < 1 then
+            fireserver("ChangeParent", Mats:WaitForChild(tostring(Item)), Parent)
+        end
+    end)
+end
+
+function GetItemFromString(Item, Parent)
+    if Parent:FindFirstChild(Item) then
+        return Parent[Item]
+    elseif Mats:FindFirstChild(Item) then
+        return Mats[Item]
+    end
+end
+
+function GetPart(Model)
+    local P = nil
+    for _, v in pairs(Model:GetDescendants()) do
+        if v:IsA("BasePart") and (P == nil or tostring(v) == "Head" or tostring(v) == "Driver") then
+            P = v
+        end
+    end
+    return P
+end
+
+local AA = 0
+MaxAmount = 1500
+TimeToWait = 1
+function Count()
+    AA = AA + 1
+    if AA >= MaxAmount then
+        wait(TimeToWait)
+        AA = 0
+    end
+end
+
+local Vector3Objects = {
+    Vector3.new(2, 6, 9),
+    Vector3.new(2, 1, 4),
+    Vector3.new(2, 2, 4),
+    Vector3.new(4, 4, 4),
+    Vector3.new(2, 2, 12),
+    Vector3.new(8, .4, 2),
+    Vector3.new(2, 8, 2)
+}
+
+KitsList = {
+    ["Blood"] = {{"BloodBag", 50}},
+    ["Pk"] = {{"Painkillers", 50}},
+    ["Food"] = {{"MRE", 25}, {"WaterBottle", 25}},
+    ["Gadgets"] = {{"Painkillers", 50}},
+    ["Car"] = {{"ReinforcedWheel", 8}, {"BallisticGlass", 1}, {"JerryCan", 4}, {"EngineParts", 1}, {"FuelTank", 1}, {"ArmorPlates", 1}, {"ScrapMetal", 1}},
+    ["Base"] = {{"Material1", 5}, {"Material2", 5}, {"Material3", 5}, {"Material4", 5}, {"Material5", 5}, {"Material6", 5}, {"Material7", 5}, {"Floodlight", 5}, {"LargeCrate", 5}, {"Entrencher", 1}},
+    ["M14=1"] = {"MilitaryPackBlack", "M14", {"M14Ammo50", 12}, {"BloodBag", 7}, "Painkillers", "ACOG", "Grip", "Suppressor762"},
+    ["FAL=1"] = {"MilitaryPackBlack", "FAL", {"M14Ammo50", 12}, {"BloodBag", 7}, "Painkillers", "ACOG", "Grip", "Suppressor762"},
+    ["Mk17=1"] = {"MilitaryPackBlack", "Mk 17", {"M14Ammo50", 12}, {"BloodBag", 7}, "Painkillers", "ACOG", "Grip", "Suppressor762"},
+    ["HK21=1"] = {"MilitaryPackBlack", "HK21", {"M14Ammo50", 12}, {"BloodBag", 7}, "Painkillers", "ACOG", "Grip", "Suppressor762"},
+    ["HK417=1"] = {"MilitaryPackBlack", "HK417", {"M14Ammo50", 12}, {"BloodBag", 7}, "Painkillers", "ACOG", "Grip", "Suppressor762"},
+    ["G3=1"] = {"MilitaryPackBlack", "G3", {"M14Ammo50", 12}, {"BloodBag", 7}, "Painkillers", "ACOG", "Grip", "Suppressor762"},
+    ["Pat=1"] = {"MilitaryPackBlack", "Patriot", {"STANAGAmmo100", 12}, {"BloodBag", 7}, "Painkillers", "ACOG", "Grip", "Suppressor556"},
+    ["G36k=1"] = {"MilitaryPackBlack", "G36k", {"STANAGAmmo100", 12}, {"BloodBag", 7}, "Painkillers", "ACOG", "Grip", "Suppressor556"},
+    ["M4A1=1"] = {"MilitaryPackBlack", "M4A1", {"STANAGAmmo100", 12}, {"BloodBag", 7}, "Painkillers", "ACOG", "Grip", "Suppressor556"},
+    ["SCAR=1"] = {"MilitaryPackBlack", "SCAR-L", {"STANAGAmmo100", 12}, {"BloodBag", 7}, "Painkillers", "ACOG", "Grip", "Suppressor556"},
+    ["Ak12=1"] = {"MilitaryPackBlack", "AK-12", {"AK47Ammo75", 12}, {"BloodBag", 7}, "Painkillers", "ACOG", "Grip", "Suppressor762"},
+    ["AK104=1"] = {"MilitaryPackBlack", "AK-104", {"AK47Ammo75", 12}, {"BloodBag", 7}, "Painkillers", "ACOG", "Grip", "Suppressor762"},
+    ["OTs-14=1"] = {"MilitaryPackBlack", "OTs-14", {"AK47Ammo75", 12}, {"BloodBag", 7}, "Painkillers", "ACOG", "Grip", "Suppressor762"},
+    ["G18=1"] = {"MilitaryPackBlack", "G18", {"M9Ammo32", 12}, {"BloodBag", 7}, "Painkillers","Suppressor9",}
+}
+
+---End Of Kits
+
+--]
+RunService.RenderStepped:Connect(function()
+	if NoClip then
+		Client.Character.Humanoid:ChangeState(11)
+	end
+
+
+    if TC4 then
+        if Lighting.Materials:FindFirstChild("C4Placed") then
+		    Workspace.Remote.PlaceC4:FireServer(Lighting.Materials:FindFirstChild("C4Placed"), Client.Character.Torso.Position - Vector3.new(0, -2.9, 0), true)
+        end
+	end
+    
+	if TVS50 then
+		if Lighting.Materials:FindFirstChild("VS50Placed") then
+			Workspace.Remote.PlaceC4:FireServer(Lighting.Materials:FindFirstChild("VS50Placed"), Client.Character.Torso.Position - Vector3.new(0, -2.9, 0), true)
+		end
+	end
+
+	if TTM46 then
+		if Lighting.Materials:FindFirstChild("TM46Placed") then
+			Workspace.Remote.PlaceC4:FireServer(Lighting.Materials:FindFirstChild("TM46Placed"), Client.Character.Torso.Position - Vector3.new(0, -2.9, 0), true)
+		end
+	end
+
+	if TFlare then
+		Workspace.Remote.PlaceMaterial:FireServer("RoadFlareLit", Client.Character.Torso.Position - Vector3.new(-4.5, 2.9, 12.8))
+	end 
+
+	if Fire then 
+		Workspace.Remote.PlaceMaterial:FireServer("Fireplace", Client.Character.Torso.Position - Lighting.Materials.Head.Position - Vector3.new(-10, 0, 1))
+	end
+
+	if CowWalk then 
+		Workspace.Remote.PlaceMaterial:FireServer("Animal1", Client.Character.Torso.Position - Lighting.Materials.Animal1.Animal.Head.Position - Vector3.new(-10, 0, 1))
+	end
+end)
+---Tabs
+
+local CreditsTab = Window:CreateTab("Credits", 4493362458)
+local localPlayerTab = Window:CreateTab("Local", 4483362458)
+local SpawnTab = Window:CreateTab("Spawning", 4483362458)
+local ServerCleanTab = Window:CreateTab("Loot-Cleaner", 4483362458)
+local ConsoleServerTab = Window:CreateTab("Server's", 4483362458)
+--EndOfTabs
+
+--Toggles
+local Tab = localPlayerTab:CreateToggle({
+   Name = "NoFog",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(bool)
+     if bool then 
+        Lighting.FogEnd = 9e9
+    elseif not bool then
+        Lighting.FogEnd = 1300
+    end
+end, false})
+
+
+
+
+--EndOfToggles
+
+--[Labels
+---CreditsTab
+local Label2 = CreditsTab:CreateLabel("ADD ON DISCORD!")
+local Label3 = CreditsTab:CreateLabel("Owner-qetp")
+local Label4 = CreditsTab:CreateLabel("Helper-Clindly")
+local Label5 = CreditsTab:CreateLabel("Friend-T_Haddy")
+local Label5 = ConsoleServerTab:CreateLabel("!Join Console Servers!")
+
+local Button = CreditsTab:CreateButton({
+   Name = "Subscribe To My YT(F9).",
+   Callback = function()
+print("https://www.youtube.com/@UnixHub")
+  end,
+})
+local Button = CreditsTab:CreateButton({
+   Name = "joinDiscord(F9).",
+   Callback = function()
+print("https://discord.gg/ENVEj4sNNv")
+  end,
+})
+
+local Button = CreditsTab:CreateButton({
+   Name = "RejoinServer.",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/NfbL6xJq", true))()
+  end,
+})
+
+
+
+--]EndOfLabels
+
+
+--{ButtonFunctions.
+ local Base1 = SpawnTab:CreateButton({Name = "Building-Kit.", Callback = function()
+ for i = 1, #KitsList["Base"] do
+        local Amount = 1
+        local Item = KitsList["Base"][i]
+        if typeof(Item) == "table" then
+            Amount = Item[2]
+            Item = Item[1]
+        end
+        for O = 1, Amount or 1 do
+        Count()
+            spawn(function()
+                SpawnItem(client, Item, Loot, Vector3.new(math.random(-5, 5), 2.5, math.random(-5, 5)))
+            end)
+        end
+    end
+    warn("Successfully Spawned Base Kit.")
+end})
+
+
+local awd = SpawnTab:CreateButton({
+   Name = "Car-Kit.",
+   Callback = function()
+for i = 1, #KitsList["Car"] do
+        local Amount = 1
+        local Item = KitsList["Car"][i]
+        if typeof(Item) == "table" then
+            Amount = Item[2]
+            Item = Item[1]
+        end
+        for O = 1, Amount or 1 do
+            Count()
+            spawn(function()
+                SpawnItem(client, Item, Loot, Vector3.new(math.random(-5, 5), 2.5, math.random(-5, 5)))
+            end)
+        end
+    end
+    warn("Successfully Spawned CarKit.")
+ end})
+
+local WompWomp = SpawnTab:CreateButton({Name = "M14-Kit.", Callback = function()
+	for i = 1, #KitsList["M14=1"] do
+        local Amount = 1
+        local Item = KitsList["M14=1"][i]
+        if typeof(Item) == "table" then
+            Amount = Item[2]
+            Item = Item[1]
+        end
+        for O = 1, Amount or 1 do
+            Count()
+            spawn(function()
+                SpawnItem(client, Item, Loot, Vector3.new(math.random(-5, 5), 2.5, math.random(-5, 5)))
+            end)
+        end
+    end
+    warn("Successfully Spawned M14Kit.")
+end})
+
+
+
+local WompWomp1 = SpawnTab:CreateButton({Name = "FalKit.", Callback = function()
+
+for i = 1, #KitsList["FAL=1"] do
+        local Amount = 1
+        local Item = KitsList["FAL=1"][i]
+        if typeof(Item) == "table" then
+            Amount = Item[2]
+            Item = Item[1]
+        end
+        for O = 1, Amount or 1 do
+            Count()
+            spawn(function()
+                SpawnItem(client, Item, Loot, Vector3.new(math.random(-5, 5), 2.5, math.random(-5, 5)))
+            end)
+        end
+    end
+    warn("Successfully Spawned FalKit.")
+end})
+
+
+local WompWomp1 = SpawnTab:CreateButton({Name = "OTS-Kit.", Callback = function()
+
+for i = 1, #KitsList["OTs-14=1"] do
+        local Amount = 1
+        local Item = KitsList["OTs-14=1"][i]
+        if typeof(Item) == "table" then
+            Amount = Item[2]
+            Item = Item[1]
+        end
+        for O = 1, Amount or 1 do
+        Count()
+            spawn(function()
+                SpawnItem(client, Item, Loot, Vector3.new(math.random(-5, 5), 2.5, math.random(-5, 5)))
+            end)
+        end
+    end
+    warn("Successfully Spawned OTs-14 Kit.")
+end})
+
+local WompWomp1 = SpawnTab:CreateButton({Name = "Mk17-Kit.", Callback = function()
+for i = 1, #KitsList["Mk17=1"] do
+        local Amount = 1
+        local Item = KitsList["Mk17=1"][i]
+        if typeof(Item) == "table" then
+            Amount = Item[2]
+            Item = Item[1]
+        end
+        for O = 1, Amount or 1 do
+        Count()
+            spawn(function()
+                SpawnItem(client, Item, Loot, Vector3.new(math.random(-5, 5), 2.5, math.random(-5, 5)))
+            end)
+        end
+    end
+    warn("Successfully Spawned Mk17 CQC Kit.")
+end})
+
+local WompWomp1 = SpawnTab:CreateButton({Name = "HK21-Kit.", Callback = function()
+    for i = 1, #KitsList["HK21=1"] do
+        local Amount = 1
+        local Item = KitsList["HK21=1"][i]
+        if typeof(Item) == "table" then
+            Amount = Item[2]
+            Item = Item[1]
+        end
+        for O = 1, Amount or 1 do
+        Count()
+            spawn(function()
+                SpawnItem(client, Item, Loot, Vector3.new(math.random(-5, 5), 2.5, math.random(-5, 5)))
+            end)
+        end
+    end
+    warn("Successfully Spawned HK21 CQC Kit.")
+end})
+
+local WompWomp1 = SpawnTab:CreateButton({Name = "Patriot-Kit.", Callback = function()
+    for i = 1, #KitsList["Pat=1"] do
+        local Amount = 1
+        local Item = KitsList["Pat=1"][i]
+        if typeof(Item) == "table" then
+            Amount = Item[2]
+            Item = Item[1]
+        end
+        for O = 1, Amount or 1 do
+        Count()
+            spawn(function()
+                SpawnItem(client, Item, Loot, Vector3.new(math.random(-5, 5), 2.5, math.random(-5, 5)))
+            end)
+        end
+    end
+    warn("Successfully Spawned Pat CQC Kit.")
+end})
+
+local wompwomp2 = SpawnTab:CreateButton({Name = "G18-Kit", Callback = function()
+    for i = 1, #KitsList["G18=1"] do
+        local Amount = 1
+        local Item = KitsList["G18=1"][i]
+        if typeof(Item) == "table" then
+            Amount = Item[2]
+            Item = Item[1]
+        end
+        for O = 1, Amount or 1 do
+        Count()
+            spawn(function()
+                SpawnItem(client, Item, Loot, Vector3.new(math.random(-5, 5), 2.5, math.random(-5, 5)))
+            end)
+        end
+    end
+    warn("Successfully Spawned G18, And Ammo Kit.")
+end})
+
+local WompWomp1 = ServerCleanTab:CreateButton({Name = "CleanServer.", Callback = function()
+spawn(function()
+		local E = 0
+		for _, v in pairs(Workspace:GetChildren()) do
+			if Loot:FindFirstChild(v.Name) then
+				Count()
+				E = E + 1
+				fireserver("ChangeParent", v, nil)
+			end
+		end
+		for _, v in pairs(Workspace:GetChildren()) do
+			if v.Name == "C4Placed" or v.Name == "VS50Placed" or v.Name == "TM46Placed" or v.Name == "Fireplace" then
+				Count()
+				E = E + 1
+				fireserver("ChangeParent", v, nil)
+			end
+		end
+		for _, v in pairs(Workspace:FindFirstChild("Vehicles"):GetDescendants()) do
+			if v.Name == "MaxSpeed" and v.Value > 115 or v.Name == "Hull" and v.Value > 5000 then
+				E = E + 1
+				Count()
+				fireserver("ChangeParent", v.Parent.Parent)
+			end
+		end
+		for _, v in pairs(Workspace:GetDescendants()) do 
+			if v.Name == "Floodlight" or v.Name == "LargeCrateOpen" or v.Name == "SmallCrateOpen" or v.Name == "Fireplace" then
+				Count()
+				E = E + 1
+				fireserver("ChangeParent", v, nil)
+			elseif (v.Name == "Part" or v.Name == "Head" or v.Name == "Truss") then
+				if table.find(Vector3Objects,v.Size) then
+					Count()
+					E = E + 1
+					fireserver("ChangeParent", v, nil)
+				end
+			end
+		end
+		warn(string.format("Cleaned %s Spawned Loot.", E))
+	end)
+end})
+
+local WompWomp1 = ServerCleanTab:CreateButton({Name = "Clean-Explosives.", Callback = function()
+for _, v in pairs(Workspace:GetChildren()) do
+        local IsMine = v.Name == "VS50Placed" or v.Name == "TM46Placed"
+        local IsC4 = v.Name == "C4Placed"
+        
+        if IsMine then
+            fireserver("ChangeValue", v.Active, true)
+        elseif IsC4 then
+            R.Detonate:FireServer(v)
+        end
+    end
+    warn("Successfully Exploded All Explosives.")
+end})
+
+local WompWomp1 = ServerCleanTab:CreateButton({Name = "Clean-Part's.", Callback = function()
+	spawn(function()
+		local C = 0
+		for _, v in pairs(Workspace:GetDescendants()) do 
+			if v.Name == "Floodlight" or v.Name == "LargeCrateOpen" or v.Name == "SmallCrateOpen" or v.Name == "Fireplace" then
+				Count()
+				C = C + 1
+				fireserver("ChangeParent", v, nil)
+			elseif (v.Name == "Part" or v.Name == "Head" or v.Name == "Truss") then
+				if table.find(Vector3Objects,v.Size) then
+					Count()
+					C = C + 1
+					fireserver("ChangeParent", v, nil)
+				end
+			end
+		end
+		warn(string.format("Cleaned %s Parts.", D))
+	end)
+end, })
+
+local WompWomp1 = ServerCleanTab:CreateButton({Name = "Clean-Vehicles.", Callback = function()
+spawn(function()
+		local D = 0
+		for _, v in pairs(Workspace:FindFirstChild("Vehicles"):GetDescendants()) do
+			if v.Name == "MaxSpeed" and v.Value > 115 or v.Name == "Hull" and v.Value > 5000 then
+				D = D + 1
+				Count()
+				fireserver("ChangeParent", v.Parent.Parent)
+			end
+		end
+		warn(string.format("Cleaned %s Modded Vehicles.", G))
+	end)
+end, })
+    
+    
+--SliderTabs
+local WompWomp1 = localPlayerTab:CreateButton({Name = "FullBright", Callback = function()
+game.Lighting.Changed:connect(function()
+    game.Lighting.TimeOfDay = "14:00:00"
+    game.Lighting.FogEnd = 9999
+    game.Lighting.Brightness = 2
+    game.Lighting.GlobalShadows = false
+    game.Lighting.ColorCorrection.Brightness = 0.1
+    game.Lighting.ColorCorrection.Saturation = 0.1
+    game.Lighting.Bloom.Intensity = 0.1
+    end)
+end})
+
+
+
